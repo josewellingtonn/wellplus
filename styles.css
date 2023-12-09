@@ -1,0 +1,113 @@
+:root {
+    --cor-titulos: #F5E8C7;
+    --cor-textos: #818FB4;
+    --cor-botoes: #2f3c61;
+    --cor-fundo: #5b558a;
+
+    --cor-hover-primario: #3a4b77;
+    --cor-hover-secundario: #222b44;
+    --cor-hover-borda: #080a0f;
+
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-titulos);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url('img/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+}
+
+.hero__caixa {
+    margin: 0 5em;
+}
+
+.hero__titulo {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.hero__image {
+    margin: 1em 0 2em 0;
+}
+
+.hero__botao {
+    background-color: var(--cor-botoes);
+    color: var(--cor-titulos);
+    padding: 1em;
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+    transition: background-color 0.5s;
+}
+
+.hero__botao:hover {
+    background-color: var(--cor-hover-primario);
+    transition: background-color 0.5s;
+}
+
+.botao-secundario {
+    background-color: transparent;
+    border: 2px solid var(--cor-titulos);
+    transition: background-color 0.5s, border 0.5s;
+}
+
+.botao-secundario:hover {
+    background-color: var(--cor-hover-secundario);
+    border-color: var(--cor-textos);
+    transition: background-color 0.5s, border 0.5s;
+}
+
+.hero__aviso {
+    font-size: 0.75rem;
+    color: var(--cor-textos);
+}
+
+.plataformas {
+    align-items: center;
+    padding: 4em;
+}
+
+.plataformas__imagem {
+    width: 80%;
+}
+
+.plataformas__info__titulo {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.plataformas__info__texto {
+    color: var(--cor-textos);
+    font-size: 1rem;
+}
+
+.plataformas__info--telas {
+    padding: 0 4em;
+}
+
+.plataformas__info__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
