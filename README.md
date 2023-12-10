@@ -33,7 +33,7 @@ O site contém seis seções:
 
 ## 📁 Acesso ao projeto
 
-[Veja o projeto final em funcionamento.](https://josewellingtonn.github.io/wellplus/)
+[Veja o projeto final em funcionamento.](https://wellplus.vercel.app/)
 
 Neste repositório você tem acesso a todos os arquivos necessários para execução.
 
