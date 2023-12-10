@@ -33,7 +33,7 @@ O site contém seis seções:
 
 ## 📁 Acesso ao projeto
 
-[Veja o projeto final em funcionamento.](https://meus-jogos-favoritos.vercel.app/)
+[Veja o projeto final em funcionamento.](https://josewellingtonn.github.io/wellplus/)
 
 Neste repositório você tem acesso a todos os arquivos necessários para execução.
 
